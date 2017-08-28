@@ -1,0 +1,26 @@
+.container {
+    width:  960px;
+    margin: 0 auto;
+}
+.row {
+    padding-top: 20px;
+}
+button {
+    margin: 5px;
+    background-color:#009999;
+    color: white;
+}
+button:hover {
+    background-color: #003333;
+}
+button:visited {
+    color: #003333;
+} 
+#addAnimal {
+    margin-top: 5px;
+    background-color:#009999;
+    color: white;
+}
+p {
+    margin-top: 10px;
+}
