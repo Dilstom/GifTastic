@@ -24,3 +24,9 @@ button:visited {
 p {
     margin-top: 10px;
 }
+img {
+  width: 80%;
+}
+#addAnimal {
+    margin: 0 40%;
+}
