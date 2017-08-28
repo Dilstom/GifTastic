@@ -14,7 +14,7 @@ button:hover {
     background-color: #003333;
 }
 button:visited {
-    color: #003333;
+    background-color: #003333;
 } 
 #addAnimal {
     margin-top: 5px;
