@@ -77,12 +77,12 @@ renderButtons();
 // Creating and storing an image tag
             var animalImage = $("<img>");
 // Setting the src attribute of the image to a property pulled off the result item
-            animalImage.attr("src", results[i].images.fixed_height_still.url);
+            animalImage.attr("src", results[i].images.fixed_width_still.url);
               
 // (MS) added data-state, still attr to image
-            animalImage.attr("data-still", results[i].images.fixed_height_still.url)
-              animalImage.attr("data-animate", results[i].images.fixed_height.url);
-               console.log(results[i].images.fixed_height.url);
+            animalImage.attr("data-still", results[i].images.fixed_width_still.url)
+              animalImage.attr("data-animate", results[i].images.fixed_width.url);
+               console.log(results[i].images.fixed_width.url);
             animalImage.attr("data-state", "still");
             
             animalImage.attr("class", "gif")

@@ -1,5 +1,5 @@
 .container {
-    width:  960px;
+    max-width:  960px;
     margin: 0 auto;
 }
 .row {
@@ -16,17 +16,28 @@ button:hover {
 button:visited {
     background-color: #003333;
 } 
+button:active {
+    background-color: #003333;
+} 
+button:focus {
+    background-color: #003333;
+} 
 #addAnimal {
     margin-top: 5px;
-    background-color:#009999;
+    background-color:#003333;
     color: white;
+      margin: 0 50%;
 }
 p {
     margin-top: 10px;
 }
 img {
-  width: 50%;
+ width: 60%;
+ border: solid 3px #003333;
 }
-#addAnimal {
-    margin: 0 40%;
+
+.jumbotron {
+    background-color: #003333;
+     color: white;
+    text-align: center;
 }
