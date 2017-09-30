@@ -6,7 +6,7 @@ When the user clicks on a button, the page grabs 10 static, non-animated gif ima
 
 When the user clicks one of the still GIPHY images, the gif animates. If the user clicks the gif again, it stops playing.
 
-Under every gif, there is rating (PG, G, so on).
+Above every gif, there is rating (PG, G, so on).
 
 ![alt text](assets/images/Capture1.PNG "Gif")
 
